@@ -3,21 +3,27 @@ import { Person, Mail } from '@material-ui/icons';
 
 export default function Topbar() {
     return (
-        <div className="topbar">
+        <div className="topbar active">
             <div className="wrapper">
                 <div className="left">
                     <a href="#intro" className="logo">kim meadows.</a>
                     <div className="itemContainer">
                         <Person className="icon" />
-                        <span>654654</span>
+                        <span>469 346 0615</span>
                     </div>
                     <div className="itemContainer">
                         <Mail className="icon" />
                         <span>kimmeadows8@gmail.com</span>
                     </div>
                 </div>
-                <div className="right"></div>
+                <div className="right">
+                    <div className="hamburger">
+                        <span className="line1"></span>
+                        <span className="line2"></span>
+                        <span className="line3"></span>
+                    </div>
+                </div>
             </div>
         </div>
-    )
+    );
 }
