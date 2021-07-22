@@ -18,7 +18,8 @@ export default function Intro() {
                 <div className="imgContainer">
                     {/* <img src="assets/face.png" alt=""/> */}
                 </div>
-            </div>
+        </div>
+        
             <div className="right">
                 <div className="wrapper">
                     <h2>Hello World! I'm </h2>
