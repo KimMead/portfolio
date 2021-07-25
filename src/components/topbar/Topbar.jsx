@@ -1,5 +1,6 @@
 import "./topbar.scss";
 import { Person, Mail } from '@material-ui/icons';
+import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
 
 export default function Topbar({ menuOpen, setMenuOpen }) {
     return (
@@ -7,16 +8,19 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
             <div className="wrapper">
                 <div className="left">
                     <a href="#intro" className="logo">kim meadows.</a>
-                    <div className="itemContainer">
-                        <Person className="icon" />
-                        <span>469 346 0615</span>
-                    </div>
+                   
                     <div className="itemContainer">
                         <Mail className="icon" />
                         <span>kimmeadows8@gmail.com</span>
                     </div>
+                    
                 </div>
                 <div className="right">
+                    <div className="itemContainer">
+                        <AiFillGithub className="icon" />
+                        <a href='https://github.com/KimMead'></a>
+                    </div>
+
                     <div className="hamburger" onClick={()=>setMenuOpen(!menuOpen)}>
                         <span className="line1"></span>
                         <span className="line2"></span>
