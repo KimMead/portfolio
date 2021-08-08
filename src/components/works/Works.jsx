@@ -64,8 +64,18 @@ export default function Works() {
                             <p>{d.desc}</p>
                             <h4>STACK</h4>
                             <p>{d.tech}</p>
-                            <a href={d.code}><button>Source Code</button></a>
-                            </div>
+                            
+                            
+                                    <form action={d.code}>
+                                    <button type="submit" class="inline">Source Code</button>
+                                    </form>
+                                    <form action={d.demo}>
+                                    <button type="submit" class="inline">Full Demo</button>
+                                    </form>
+                                    </div>
+                               
+                           
+                            
                         </div>
                         <div className="right">
                         <img src={d.img} alt=""/>
