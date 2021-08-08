@@ -10,7 +10,7 @@ export default function Works() {
             icon: "./assets/mobile.png",
             title: "Quote Keeper",
             desc: "This app allows users to track their favorite quotes and sayings.",
-            tech: "MySQL | ActiveRecord | Ruby | JavaScript | React | Redux",
+            tech: "Ruby | Rails | JavaScript | React | Redux",
             demo: "",
             code: "https://github.com/KimMead/quotes-final-frontend",
 
@@ -21,14 +21,19 @@ export default function Works() {
             icon: "./assets/mobile.png",
             title: "Travel Tracker",
             desc: "A simple app that allows users to track attractions they have visited.",
-            img: "",
+            tech: "Ruby | Rails | JavaScript ",
+            demo: "",
+            code: "https://github.com/KimMead/quotes-final-frontend",
+
         },
         {
             id: "3",
             icon: "./assets/mobile.png",
             title: "Movie List",
             desc: "A simple app that allows users to track movies and movie information.",
-            img: "",
+            tech: "Ruby | Rails | JavaScript ",
+            demo: "",
+            code: "https://github.com/KimMead/quotes-final-frontend",
         },
         
     ]
@@ -41,6 +46,9 @@ export default function Works() {
     return (
     <div className="works" id="works">
        <h1>Projects</h1>
+       <a href="#portfolio">
+                    <img src="assets/down.png" alt=""/>
+                </a>
         <div 
             className="slider" style={{transform:`translateX(-${currentSlide *100}vw)` }}>
             {data.map((d) => ( 
@@ -59,16 +67,20 @@ export default function Works() {
                             <a href={d.code}><button>Source Code</button></a>
                             </div>
                         </div>
-                    <div className="right">
+                        <div className="right">
                         <img src={d.img} alt=""/>
-                            
                         </div>
+                        
+                    
                     </div>
+                    
+                    
                 </div>
             ))}
         </div>
         <img src="assets/arrow.png" className="arrow left" alt="" onClick={()=>handleClick("left")}/>
         <img src="assets/arrow.png" className="arrow right" alt="" onClick={()=>handleClick("right")}/>
+        
     </div>
     );
 }

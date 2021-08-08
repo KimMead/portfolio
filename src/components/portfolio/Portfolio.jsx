@@ -34,14 +34,8 @@ export default function Portfolio() {
                     <h3></h3>
                 </div>
             </div>
-            <div className="right">
-                <div className="wrapper">
-                </div>
-                
-                <a href="#works">
-                    <img src="assets/down.png" alt=""/>
-                </a>
-            </div>
+
+           
         </div>
     )
 }
