@@ -10,60 +10,50 @@ export default function Portfolio() {
     
     return (
         <div className="portfolio" id="portfolio">
-            <h1>Technologies</h1>
-        
-
-            <div class="view_wrap grid-view">
-
-                <div class="view_item">
-                        <div class="vi_left"></div>
-                    <img src="https://img.icons8.com/ios-filled/20/000000/ruby-programming-language.png"/>
+            <div className="wrapper">
+                <div className="title">
+                    <h1>Technologies</h1>
+                    
                 </div>
-
-                <div class="vi_right">
-                    <p class="title">Ruby on Rails</p>
+                <div className="container">
+                
+                <div class="ruby">
+                    <img src="https://img.icons8.com/windows/32/000000/ruby-programming-language.png"/>
+                    <p>Ruby</p>
                 </div>
+                <div class="javascript">
+                    <img src="https://img.icons8.com/ios-filled/30/000000/javascript.png"/>
+                    <p>Javascript</p>
+                </div>
+                <div className="react">
+                    <img src="https://img.icons8.com/ios-filled/30/000000/react-native.png"/>
+                    <p>React</p>
+                </div>
+                <div class="sql">
+                    <img src="https://img.icons8.com/ios-filled/30/000000/sql.png"/>
+                    <p>SQL</p>
+                </div>
+                <div class="html">
+                    <img src="https://img.icons8.com/ios-filled/30/000000/html.png"/>
+                    <p>HTML</p>
+                </div>
+                <div class="CSS">
+                    <img src="https://img.icons8.com/ios-filled/30/000000/css.png"/>
+                    <p>CSS</p>
+                </div>
+                
+            </div>
             </div>
 
-                <div class="view_item">
-                    <div class="vi_left"></div>
-                    <img src="https://img.icons8.com/ios-filled/30/000000/javascript.png"/>
-                </div>
+            
 
-                <div class="vi_right">
-                    <p class="title">Javascript</p>
-                </div>
-
-                <div class="view_item">
-                    <div class="vi_left"></div>
-                    <img src="https://img.icons8.com/ios-filled/30/000000/sql.png"/>
-                </div>
-
-                <div class="vi_right">
-                    <p class="title">SQL</p>
-                </div>
-
-                <div class="view_item">
-                    <div class="vi_left"></div>
-                    <img src="https://img.icons8.com/ios-filled/30/000000/html.png"/>
-                </div>
-
-                <div class="vi_right">
-                    <p class="title">HTML</p>
-                </div>
-
-                <div class="view_item">
-                    <div class="vi_left"></div>
-                    <img src="https://img.icons8.com/ios-filled/30/000000/css.png"/>
-                </div>
-
-                <div class="vi_right">
-                    <p class="title">CSS</p>
-                </div>
-
+           
+                
         </div>
            
-
-        
     )
 }
+            
+               
+
+           

@@ -46,9 +46,7 @@ export default function Works() {
     return (
     <div className="works" id="works">
        <h1>Projects</h1>
-       <a href="#portfolio">
-                    <img src="assets/down.png" alt=""/>
-                </a>
+      
         <div 
             className="slider" style={{transform:`translateX(-${currentSlide *100}vw)` }}>
             {data.map((d) => ( 
@@ -65,14 +63,15 @@ export default function Works() {
                             <h4>STACK</h4>
                             <p>{d.tech}</p>
                             
-                            
+                                
                                     <form action={d.code}>
-                                    <button type="submit" class="inline">Source Code</button>
+                                    <button type="submit" class="source">Source Code</button>
                                     </form>
                                     <form action={d.demo}>
-                                    <button type="submit" class="inline">Full Demo</button>
+                                    <button type="submit" class="demo">Full Demo</button>
                                     </form>
                                     </div>
+                                    
                                
                            
                             

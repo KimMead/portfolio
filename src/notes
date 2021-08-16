@@ -1,0 +1,84 @@
+ {/* <div class="wrapper">
+                <div class="list-wrap">
+                    <ul>
+                        <li class="ruby">
+                            <div class="list">
+                                <div class="icon"></div>
+                                <div class="content">
+                                    Ruby
+                                </div>
+                            </div>
+                        </li>
+                        <li class="javascript">
+                            <div class="list">
+                                <div class="icon"></div>
+                                <div class="content">
+                                    Javascript
+                                </div>
+                            </div>
+                        </li>
+                        <li class="react">
+                            <div class="icon">
+                                <div class="content">
+                                    React
+                                </div>
+                            </div>
+                        </li>
+
+                    </ul>
+
+                {/* <div class="view_item">
+                    <div class="vi_left"></div>
+                    <img src="https://img.icons8.com/windows/32/000000/ruby-programming-language.png"/>
+                    
+                    <div class="vi_left"></div>
+                    <img src="https://img.icons8.com/ios-filled/30/000000/javascript.png"/>
+                </div>
+
+                <div class="vi_right">
+                    <p class="title">Ruby on Rails</p>
+                </div>
+            </div>
+
+                <div class="view_item">
+                    <div class="vi_left"></div>
+                    <img src="https://img.icons8.com/ios-filled/30/000000/javascript.png"/>
+                </div>
+
+                <div class="vi_right">
+                    <p class="title">Javascript</p>
+                </div>
+
+                <div class="view_item">
+                    <div class="vi_left"></div>
+                    <img src="https://img.icons8.com/ios-filled/30/000000/sql.png"/>
+                </div> */}
+
+                {/* <div class="vi_right">
+                    <p class="title">SQL</p>
+                </div>
+
+                <div class="view_item">
+                    <div class="vi_left"></div>
+                    <img src="https://img.icons8.com/ios-filled/30/000000/html.png"/>
+                </div>
+
+                <div class="vi_right">
+                    <p class="title">HTML</p>
+                </div>
+
+                <div class="view_item">
+                    <div class="vi_left"></div>
+                    <img src="https://img.icons8.com/ios-filled/30/000000/css.png"/>
+                </div>
+
+                <div class="vi_right">
+                    <p class="title">CSS</p>
+                </div> */}
+
+        {/* </div>
+    </div>
+
+    </div>
+    )
+} */} */}

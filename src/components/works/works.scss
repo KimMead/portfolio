@@ -1,22 +1,13 @@
 @import "../../global.scss";
 
 .works { 
-    background-color: rgb(14, 189, 233);
+    background-color: rgb(134, 221, 243);
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
 
-    a{
-        position: absolute;
-        margin-top: 500px; 
-        left: 65%;
-
-        img {
-            width: 50px;
-            animation: arrowBlink 2s infinite;
-        }
-    }
+   
    
     h1{
         font-size: 50px;
@@ -161,23 +152,13 @@
                         border-radius: 5%;
                         margin-right: 40px;
                         
-                        // transform: rotate(-10deg);
                     }
 
-                    
-                    
-                    
                 }
                 
-            
-
             }
     
-            
-
         }
-        
-
         
     }
     button{
@@ -189,8 +170,9 @@
         border-radius: 10px;
         font-weight: 500;
         cursor: pointer;
+        
 
-        .inline{
+        .button .source{
         display: inline-block;
         }
         

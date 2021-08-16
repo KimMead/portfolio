@@ -32,15 +32,41 @@
             .itemContainer{
                 display: flex;
                 align-items: center;
-                margin-left: 20px;
+                margin-left: 15px;
+
 
                 @include mobile{
                     display: none;
+
+                
+                }
+
+                .github{
+                    a{
+                        margin: 20px;
+                        color: #15023a
+                    }
+                    span{
+                        margin-left: -25px;
+                    }
+                }
+
+                .linkedin{
+                    a{
+                        margin: 20px;
+                        margin-top: 25px;
+                        color: #15023a
+
+                    }
+                    span{
+                        margin-left: -25px;
+                    }
                 }
 
                 .icon{
                     font-size: 18px;
-                    margin-right: 5px;
+                    margin-right: 10px;
+                    
                 }
 
                 span{
