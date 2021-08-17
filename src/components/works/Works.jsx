@@ -24,6 +24,7 @@ export default function Works() {
             tech: "Ruby | Rails | JavaScript ",
             demo: "",
             code: "https://github.com/KimMead/quotes-final-frontend",
+            img: "https://media.giphy.com/media/iiPjEKMEX1hGnZIs5G/giphy.gif",
 
         },
         {
@@ -31,9 +32,10 @@ export default function Works() {
             icon: "./assets/mobile.png",
             title: "Movie List",
             desc: "A simple app that allows users to track movies and movie information.",
-            tech: "Ruby | Rails | JavaScript ",
+            tech: "Ruby | Sinatra | HTML ",
             demo: "",
             code: "https://github.com/KimMead/quotes-final-frontend",
+            img: "https://media.giphy.com/media/N79imLqRYM07oTCpQN/giphy.gif",
         },
         
     ]

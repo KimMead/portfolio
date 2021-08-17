@@ -18,6 +18,8 @@
         right: 0;
     }
 
+    
+
     ul {
         margin: 0;
         padding: 0;
@@ -26,6 +28,8 @@
         font-weight: 400;
         color: white;
         width: 60%;
+
+        
 
         li{
             margin-bottom: 25px;
@@ -38,6 +42,7 @@
             &:hover {
                 font-weight: 700;
             }
+
         }
     }
 }
