@@ -15,12 +15,12 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
                         
                             <div className="github">
                                 <a href='https://github.com/KimMead'><AiFillGithub className="icon" /></a>
-                                <span>Github</span>
+                                <a href='https://github.com/KimMead'><span>Github</span></a>
                             </div>
 
                             <div className="linkedin">
                                 <a href='https://www.linkedin.com/in/kimmeadows/'><AiFillLinkedin className="icon" /></a>
-                                <span>LinkedIn</span>
+                                <a href='https://www.linkedin.com/in/kimmeadows/'><span>LinkedIn</span></a>
                             </div>
                     </div>
                 </div>

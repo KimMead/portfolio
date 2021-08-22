@@ -11,9 +11,8 @@ export default function Works() {
             title: "Quote Keeper",
             desc: "This app allows users to track their favorite quotes and sayings.",
             tech: "Ruby | Rails | JavaScript | React | Redux",
-            demo: "",
+            demo: "https://youtu.be/Sb471JSOqy0",
             code: "https://github.com/KimMead/quotes-final-frontend",
-
             img: "https://media.giphy.com/media/RS4wXTCuKYFO3aOMIO/giphy.gif",
         },
         {
@@ -22,8 +21,8 @@ export default function Works() {
             title: "Travel Tracker",
             desc: "A simple app that allows users to track attractions they have visited.",
             tech: "Ruby | Rails | JavaScript ",
-            demo: "",
-            code: "https://github.com/KimMead/quotes-final-frontend",
+            demo: "https://youtu.be/9kkNNXFaYIs",
+            code: "https://github.com/KimMead/Rails_Project_Real_JS",
             img: "https://media.giphy.com/media/iiPjEKMEX1hGnZIs5G/giphy.gif",
 
         },
@@ -33,8 +32,8 @@ export default function Works() {
             title: "Movie List",
             desc: "A simple app that allows users to track movies and movie information.",
             tech: "Ruby | Sinatra | HTML ",
-            demo: "",
-            code: "https://github.com/KimMead/quotes-final-frontend",
+            demo: "https://youtu.be/4pacLV5G73I",
+            code: "https://github.com/KimMead/movie-list",
             img: "https://media.giphy.com/media/N79imLqRYM07oTCpQN/giphy.gif",
         },
         

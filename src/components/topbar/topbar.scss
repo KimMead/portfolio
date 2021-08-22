@@ -17,6 +17,8 @@
         align-items: center;
         justify-content: space-between;
 
+        
+
         .left{
             display: flex;
             align-items: center; 
@@ -27,6 +29,13 @@
                 text-decoration: none;
                 color: inherit;
                 margin-right: 40px;
+
+                @include mobile{
+                    width: 60%;
+                    height: 150px;
+                    margin: 15px 0;
+                    
+                }
             }
 
             .itemContainer{
@@ -36,6 +45,7 @@
 
 
                 @include mobile{
+                    width: 60%;
                     display: none;
 
                 
@@ -43,30 +53,38 @@
 
                 .github{
                     a{
-                        margin: 20px;
-                        color: #15023a
+                        margin: 40px;
+                        color: #15023a;
+                        text-decoration: none;
+
+                       
                         
                     }
                     span{
-                        margin-left: -25px;
+                        margin-left: -85px;
+
                     }
+
+                    
                 }
 
                 .linkedin{
                     a{
                         margin: 20px;
-                        margin-top: 25px;
-                        color: #15023a
+                        margin-top: 30px;
+                        color: #15023a;
+                        text-decoration: none;
 
                     }
                     span{
-                        margin-left: -25px;
+                        margin-left: -45px;
+                        
                     }
                 }
 
                 .icon{
                     font-size: 18px;
-                    margin-right: 10px;
+                    margin-right: 15px;
                     
                 }
 
